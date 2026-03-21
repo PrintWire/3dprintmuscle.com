@@ -1,0 +1,197 @@
+baseURL = "https://3dprintmuscle.com/"
+languageCode = "en-us"
+title = "3D Print Muscle"
+theme = "printwire"
+
+[params]
+tagline       = "Bioprinting of skeletal and cardiac muscle constructs for regenerative therapy, drug testing, and actuator research."
+description   = "3D Print Muscle covers the bioprinting of functional muscle tissue — from myoblast-laden hydrogels to electrically stimulated cardiac constructs and soft robotic actuators."
+keywords      = "muscle bioprinting, cardiac bioprinting, myoblast, skeletal muscle construct, cardiac patch, bioartificial muscle, soft actuator"
+logoEmoji     = "💪"
+contactEmail  = "maxdavisgroup@gmail.com"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#0e7490"
+colorPrimaryDark  = "#155e75"
+colorPrimaryLight = "#22a3bf"
+colorBgDark       = "#06080f"
+colorBgSection    = "#08101a"
+colorBgCard       = "#0d1520"
+colorBgCardHover  = "#111d2b"
+colorBorder       = "rgba(14,116,144,0.22)"
+colorBorderLight  = "rgba(14,116,144,0.10)"
+
+fontPrimary   = "Playfair+Display"
+fontSecondary = "Source+Sans+3"
+
+newsFallbackImages = [
+  "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80",
+  "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80",
+]
+
+heroEyebrow  = "Muscle Tissue Bioprinting"
+heroTitle    = "3D Print <em>Muscle</em>"
+heroSubtitle = "Bioprinting of skeletal and cardiac muscle constructs for regenerative therapy, drug testing, and actuator research."
+heroCta1Text = "Explore Services"
+heroCta1URL  = "/services/"
+heroCta2Text = "Get a Quote"
+heroCta2URL  = "/contact/"
+heroImage    = "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80"
+
+overviewLabel   = "Muscle Platform"
+overviewTitle   = "Functional Muscle Constructs"
+overviewText    = "From sarcomere alignment to contractile force generation — our muscle constructs achieve physiologically relevant function for research and therapeutic applications."
+overviewBtnText = "View Services"
+overviewBtnURL  = "/services/"
+
+applicationsLabel = "Applications"
+applicationsTitle = "Industries We Serve"
+servicesLabel    = "What We Do"
+servicesTitle    = "3D Print Muscle Services"
+servicesSubtitle = "Bioprinting of skeletal and cardiac muscle constructs for regenerative therapy, drug testing, and actuator research."
+clusterLabel = "PrintWire Network"
+clusterTitle = "Related 3D Printing Resources"
+newsletterTitle = "Industry Updates to Your Inbox"
+newsletterText  = "Research breakthroughs and industry news — delivered monthly."
+ctaTitle   = "Start Your Project"
+ctaText    = "Bioprinting of skeletal and cardiac muscle constructs for regenerative therapy, drug testing, and actuator research."
+ctaBtnText = "Get in Touch"
+ctaBtnURL  = "/contact/"
+
+[[params.stats]]
+count  = 85
+suffix = "%+"
+label  = "Cell Viability"
+
+[[params.stats]]
+count  = 20
+suffix = "%"
+label  = "Sarcomere Alignment"
+
+[[params.stats]]
+count  = 4
+suffix = "B+"
+label  = "Cardiac AM Market (USD)"
+
+[[params.stats]]
+count  = 15
+suffix = "µN"
+label  = "Max Contractile Force"
+
+
+[[params.applications]]
+title       = "Cardiac Repair Patches"
+description = "Cardiomyocyte-seeded constructs for myocardial infarction repair and cardiac drug testing."
+image       = "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80"
+
+[[params.applications]]
+title       = "Skeletal Muscle Repair"
+description = "Aligned myoblast constructs for volumetric muscle loss and neuromuscular disease research."
+image       = "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80"
+
+[[params.applications]]
+title       = "Drug Cardiotoxicity Testing"
+description = "3D cardiac models for preclinical drug safety — replacing animal heart studies."
+image       = "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80"
+
+[[params.applications]]
+title       = "Soft Robotic Actuators"
+description = "Bioartificial muscle constructs that generate mechanical force for soft robotics research."
+image       = "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80"
+
+
+[[params.servicesPreview]]
+icon        = "❤️"
+title       = "Cardiac Muscle Constructs"
+description = "iPSC-cardiomyocyte-laden fibrin or GelMA constructs with spontaneous beating — validated by optical mapping."
+
+[[params.servicesPreview]]
+icon        = "💪"
+title       = "Skeletal Muscle Engineering"
+description = "Aligned myoblast/myotube constructs in fibrin or collagen gel with physiological mechanical properties."
+
+[[params.servicesPreview]]
+icon        = "🔬"
+title       = "Cardiac Drug Testing"
+description = "3D human cardiac models for cardiotoxicity screening — replaces animal assays with higher predictive accuracy."
+
+[[params.servicesPreview]]
+icon        = "⬡"
+title       = "Muscle Characterisation"
+description = "Contractility measurement, immunofluorescence staining, and electrophysiology for construct validation."
+
+
+[[params.services]]
+name        = "Cardiac Muscle Constructs"
+description = "iPSC-cardiomyocyte-laden fibrin or GelMA constructs with spontaneous beating — validated by optical mapping."
+icon        = "❤️"
+image       = "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80"
+
+[[params.services]]
+name        = "Skeletal Muscle Engineering"
+description = "Aligned myoblast/myotube constructs in fibrin or collagen gel with physiological mechanical properties."
+icon        = "💪"
+image       = "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&q=80"
+
+[[params.services]]
+name        = "Cardiac Drug Testing"
+description = "3D human cardiac models for cardiotoxicity screening — replaces animal assays with higher predictive accuracy."
+icon        = "🔬"
+image       = "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80"
+
+[[params.services]]
+name        = "Muscle Characterisation"
+description = "Contractility measurement, immunofluorescence staining, and electrophysiology for construct validation."
+icon        = "⬡"
+image       = "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&q=80"
+
+
+[[params.clusterLinks]]
+name        = "3dprinttissue.com"
+url         = "https://3dprinttissue.com"
+description = "Bioprinting & tissue engineering"
+
+[[params.clusterLinks]]
+name        = "dmls3d.com"
+url         = "https://dmls3d.com"
+description = "Metal 3D printing"
+
+[[params.clusterLinks]]
+name        = "3dprintceramic.com"
+url         = "https://3dprintceramic.com"
+description = "Ceramic additive manufacturing"
+
+[[params.clusterLinks]]
+name        = "3dprintfood.com"
+url         = "https://3dprintfood.com"
+description = "Food bioprinting"
+
+[[menu.main]]
+name   = "Home"
+url    = "/"
+weight = 1
+
+[[menu.main]]
+name   = "About"
+url    = "/about/"
+weight = 2
+
+[[menu.main]]
+name   = "Articles"
+url    = "/articles/"
+weight = 3
+
+[[menu.main]]
+name   = "Services"
+url    = "/services/"
+weight = 4
+
+[[menu.main]]
+name   = "Contact"
+url    = "/contact/"
+weight = 5
+
+[[menu.main]]
+name   = "Advertise"
+url    = "/advertise/"
+weight = 6
