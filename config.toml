@@ -1,9 +1,18 @@
 baseURL = "https://3dprintmuscle.com/"
 languageCode = "en-us"
 title = "3D Print Muscle"
-theme = "printwire"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
+siteName      = "3D Print Muscle"
+logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">MUSCLE</span>'
 tagline       = "Bioprinting of skeletal and cardiac muscle constructs for regenerative therapy, drug testing, and actuator research."
 description   = "3D Print Muscle covers the bioprinting of functional muscle tissue — from myoblast-laden hydrogels to electrically stimulated cardiac constructs and soft robotic actuators."
 keywords      = "muscle bioprinting, cardiac bioprinting, myoblast, skeletal muscle construct, cardiac patch, bioartificial muscle, soft actuator"
