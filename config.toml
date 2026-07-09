@@ -11,6 +11,7 @@ title = "3D Print Muscle"
       unsafe = true
 
 [params]
+ogImage       = "/images/04_vascularized_heart.png"
 siteName      = "3D Print Muscle"
 logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">MUSCLE</span>'
 tagline       = "Bioprinting of skeletal and cardiac muscle constructs for regenerative therapy, drug testing, and actuator research."
